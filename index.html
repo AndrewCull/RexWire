@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <script type="text/javascript" src="http://typecast.com/project_css/vq6V-vzFBZ/138243e22d06c3.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script  type="text/javascript"  src="js/jquery.fitvids.js"></script>
+
+    <script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".video").fitVids();
+  });
+</script>
+
+  </head>
+  <body>
+  <header>
+  <div class="logo">
+	  <a href="/"><img src="img/rex_logo.svg"></a>
+  </div>
+  
+  <nav class="menu">
+      <ul>
+        <li><a href="http://google.com">Home</a></li>
+        <li><a href="http://google.com">About</a></li>
+        <li><a href="http://google.com">Projects</a></li>
+        <li><a href="http://google.com">Blog</a></li>
+      </ul>
+    </nav>	
+    </header>
+    <div class="featured">
+
+	    <h1>The Rex Rapid Extraction System - Rescue at the Speed of Life&trade;</h1>
+    </div>
+    <div class="case-study">
+    <div class="video">
+	<iframe width="1280" height="720" src="//www.youtube.com/embed/Rq176MjU4LA" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="text">
+	<h2>Hospital Case Study</h2>
+	<p>The Rex R-1 is a critical component for moving patients in a disaster. See why Brian Lugo, head of disaster preparedness for Prime Healthcare has implemented the Rex R-1 for rapid extraction of patients.</p>
+	<button input-type="button">Learn More About Rapid Extraction</button>
+</div>
+  </div>
+  
+  </body>
+
+	
+	<footer>
+		<div class="footer__links">
+		<div class="social">
+			<ul><li>	<a href="https://twitter.com/RexEMS" class="twitter-follow-button" data-show-count="false">Follow @RexEMS</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+				<li><a href="https://twitter.com/intent/tweet?button_hashtag=RapidExtraction" class="twitter-hashtag-button" data-related="RexEMS">Tweet #RapidExtraction</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+			</ul>
+
+		</div>
+		<div class="copyright">
+			<p>&copy; 2014, Rex EMS, LLC. All Rights Reserved</p>	
+		</div>
+	</div>
+	</footer>
+
+    <script>
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,        // Boolean: Use CSS3 transitions, true or false
+        transition: 250,      // Integer: Speed of the transition, in milliseconds
+        label: "Menu",        // String: Label for the navigation toggle
+        insert: "after",      // String: Insert the toggle before or after the navigation
+        customToggle: "",     // Selector: Specify the ID of a custom toggle
+        openPos: "relative",  // String: Position of the opened nav, relative or static
+        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+        init: function(){},   // Function: Init callback
+        open: function(){},   // Function: Open callback
+        close: function(){}   // Function: Close callback
+      });
+    </script>
+
+</html>
