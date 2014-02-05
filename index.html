@@ -21,8 +21,8 @@
 	  <a href="/"><img src="img/rex_logo.svg"></a>
   </div>
   
-  <nav class="menu">
-      <ul>
+  <nav>
+      <ul class="nav-collapse">
         <li><a href="http://google.com">Home</a></li>
         <li><a href="http://google.com">About</a></li>
         <li><a href="http://google.com">Products</a></li>
@@ -35,8 +35,9 @@
     <div class="featured">
 	    <ul class="rslides">
   <li><img src="img/rex_feature.png" alt="REX Rapid Extraction Platform.">
-  <h2 class="caption">Rescue at the Speed of Life&reg;</h2></li>
-  <li><img src="img/rex_feature.png" alt="Rapid Extraction"></li>
+  <h3 class="caption">Rescue at the Speed of Life&reg;</h3></li>
+  <li><img src="img/rex_feature.png" alt="Rapid Extraction">
+  <h3 class="caption">Rapid Extraction. Delivered.</h3></li>
 
 </ul>
 
@@ -83,6 +84,9 @@
 		</div>
 	</footer>
 <script>
+  var nav = responsiveNav(".nav-collapse");
+</script>
+	<script>
   $(function() {
     $(".rslides").responsiveSlides();
   });
