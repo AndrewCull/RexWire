@@ -78,8 +78,12 @@ nav {
 
 .featured {
 	@include outer-container;
+	
+	.container {
 	@include span-columns(12);
 	
+	display: inline;
+	width: 100%;
 	background-color: $brand-color;
 	color: white;
 	text-align: left;
@@ -89,8 +93,11 @@ nav {
 
 	h1 {
 		padding: 10px 10px 10px 10px;
-		vertical-align: middle;	}
-
+		vertical-align: middle;
+		font-size: 3em;
+		line-height: 1em;
+	}
+}
 }
 
 
@@ -111,6 +118,7 @@ nav {
 		@include span-columns(6);
 			@include media ($medium-screen) {
 			@include span-columns(12);
+			margin-top: .75em;
 
 	}
 
@@ -119,7 +127,6 @@ nav {
 
 button {
 	@include button;
-	float: right;
 }
 
 footer {
